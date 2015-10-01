@@ -1,0 +1,41 @@
+.login{
+    width: 350px;
+    padding: 40px;
+    background-color: #F7F7F7;
+    margin: 0px auto 25px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    margin-top: 7%;
+}
+.circle{
+    display: block;
+    height: 96px;
+    width: 96px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+    margin-bottom: 10px;
+    background-size: 96px auto;
+    background-repeat: no-repeat;
+    background-image: url("https://ssl.gstatic.com/accounts/ui/avatar_2x.png");
+    transition: opacity 0.075s ease 0s;
+}
+.btn-big{
+    width: 100%;
+}
+.signup input{
+    border: medium none;
+    color: rgb(48, 121, 237);
+    outline: none;
+    background: none;
+}
+#register{
+    width: 500px;
+}
+.login h5{
+    text-align: center;
+    color: inherit;
+    color: #26a69a;
+}
